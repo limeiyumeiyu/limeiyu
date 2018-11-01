@@ -1,0 +1,44 @@
+body,html,.swiper-container,.main{width: 100%;height: 100%;overflow: hidden}
+html{font-size: 100px}
+
+
+
+
+/*第一屏*/
+.page1{background-color:white;background-size: 100% 100%;}
+.page1 div{margin: 0 auto}
+
+.page1 .text1{position:absolute;
+    left:.8rem;top:1rem;background: url("../img/diyiping/简历ps版_03.gif")no-repeat;width: 4.58rem;height: 4.97rem;background-size: cover}
+.page1 .text2{position:absolute;left:1.1rem;top:7rem;background: url("../img/diyiping/简历ps版_07.png")no-repeat;width: 4.1rem;height: 2.26rem;background-size: cover;}
+
+
+#page1 .text1{-webkit-animation: bounceInDown 1s ease .6s both;animation: bounceInDown 1s ease .6s both;}
+#page1 .text2{-webkit-animation: flipInX 1s ease 1s both;animation: flipInX 1s ease 1s both;}
+
+
+/*第二屏*/
+.page2{background-color: white;background-size: 100% 100%;}
+
+.page2 .text1{position:absolute;left:.2rem;top:1rem;background: url("../img/dierping/简历ps版第二页.png")no-repeat;width: 5.87rem;height: 4.64rem;background-size: cover;}
+
+.page2 .text2{position:absolute;left:.2rem;top:6rem;background: url("../img/dierping/简历ps版第二页新.png")no-repeat;width: 5.87rem;height:4.29rem;background-size: cover;}
+
+
+
+#page2 .text1{-webkit-animation: fadeInRight 1s ease .6s both;animation: fadeInRight 1s ease .6s both;}
+#page2 .text2{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1s both;}
+
+
+
+/*第三屏*/
+
+.page3 .text1{position:absolute;left:.2rem;top:1rem;background: url("../img/disanping/简历ps版第三页1.png")no-repeat;width: 5.88rem;height:4.12rem;background-size: cover;}
+
+.page3 .text2{position:absolute;left:.2rem;top:5.5rem;background: url("../img/disanping/简历ps版第三页2.png")no-repeat;width:5.89rem;height:4.72rem;background-size: cover;}
+
+
+#page3 .text1{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease .6s both;}
+#page3 .text2{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1s both;}
+
+
